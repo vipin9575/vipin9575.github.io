@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: rgb(70, 68, 68);
+color: #ee588f;
+}
+body{
+	background-color: #e988ac;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#ee588f; 
+}
+
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: #ee588f;
+}
+.navbar-brand{
+font-size: 30px;	
+}
+#chickstory{
+	font-family: Arial, Helvetica, sans-serif;
+}
