@@ -6,16 +6,16 @@
 .navbar{
 
 border: none;
-background-color: rgb(70, 68, 68);
-color: #ee588f;
+background-color: black;
+color: #61122F;
 }
 body{
-	background-color: #e988ac;
+	background-color: #61122F;
 	color: white;
 }
 .glyphicon{
 	font-size: 30px;
-	color:#ee588f; 
+	color:#61122F; 
 }
 
 .center{
@@ -35,11 +35,8 @@ h2{
 	text-align: center;
 }
 #myNavbar ul li a {
-	color: #ee588f;
+	color: #61122F;
 }
 .navbar-brand{
 font-size: 30px;	
-}
-#chickstory{
-	font-family: Arial, Helvetica, sans-serif;
 }
