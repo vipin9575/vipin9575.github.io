@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <h1>Roll The Dice</h1>
+        </div>
+        <div class="select_variable">
+          <p>Selected Variable: <span id="SVV">0</span></p>
+        </div>
+        <div class="score">
+          <p>Score: <span id="S_core">0</span></p>
+        </div>
+        <div class="dice">
+          <img src="Face1.png" alt="diceImage" id="img_dice" class="dice-sub" />
+        </div>
+      </header>
+
+      <main>
+        <div class="number">
+          <button class="btn" id="first">1</button>
+          <button class="btn" id="second">2</button>
+          <button class="btn" id="third">3</button>
+          <button class="btn" id="forth">4</button>
+          <button class="btn" id="fifth">5</button>
+          <button class="btn" id="sixth">6</button>
+        </div>
+      </main>
+
+      <footer>
+        <div class="loading_message_1">
+          <p id="loading_message__1" class="message_1">
+            Loading! Game will start in a few second!
+          </p>
+        </div>
+        <div class="result_1">
+          <p id="result__1"></p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

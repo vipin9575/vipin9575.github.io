@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 92, 92, 0.5);
+}
+
+.container{
+    border: 1px solid black;
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-image: url(images/bg_imageee.jpg);
+    background-size: cover;
+    box-shadow: 6px 6px 6px black;
+}
+
+.header{
+    margin-top: 30px;
+}
+
+
+h1{
+    color: rgb(250, 237, 237);
+    font-size: 3rem;
+}
+
+.select_variable{
+    color:  rgb(250, 237, 237);
+    font-size: large;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.score{
+    color:  rgb(250, 237, 237);
+    font-size: large;
+    position: absolute;
+    right: 0;
+    margin-right: 26px;
+    margin-top: 50px;
+}
+
+.dice{
+    margin-top: 55px;
+}
+
+#img_dice{
+    border-radius: 5px;
+}
+
+.number{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 28px 100px;
+    margin: 40px;
+}
+
+.btn{
+    border: 3px solid rgba(241, 230, 230, 0.8);
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    cursor:pointer;
+    background: transparent;
+    color: antiquewhite;
+    border-radius: 5px;
+    width: 75px;
+    height: 55px;
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 205, 205, 0.5);
+}
+
+#loading_message__1{
+    color: rgb(247, 236, 236);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+#loading_message__2{
+    color: rgb(247, 236, 236);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.result_1{
+    background-color: gray;
+    margin-top: 38px;
+    color: rgb(247, 236, 236);
+}
+
+#result__1{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.hidden{
+    display: none;
+}
+
