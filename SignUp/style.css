@@ -1,0 +1,113 @@
+body {
+  background-color: #b4d4ff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-image: url(../assets/piggy-bank-2889042_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.welcome_card {
+  border-radius: 3.9rem;
+  box-shadow: 10px 10px 21px #584345;
+}
+
+.welcome_card h2 {
+  color: #2d9596;
+  font-weight: bold;
+}
+.welcome_card h5 {
+  color: #333;
+}
+
+.welcome_card p a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.welcome_card p a:hover {
+  text-decoration: underline;
+}
+
+.form_card {
+  background-color: #f8f9fac0;
+  border-radius: 8px;
+  box-shadow: 10px 10px 21px #584345;
+}
+
+input.form-control:focus {
+  border-color: #adacac;
+  box-shadow: none;
+}
+
+/* number input field icon appearance none */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+label {
+  color: #333;
+}
+
+small {
+  visibility: hidden;
+}
+
+.error small {
+  visibility: visible;
+  color: #e74e3c;
+}
+
+.error input {
+  border-color: #e74e3c;
+}
+
+.success input {
+  border-color: #0d6efd;
+}
+
+/* Popup */
+.modal-header {
+  background-color: #516e6e;
+}
+
+.modal-title {
+  margin-left: 175px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-body {
+  color: #516e6e;
+  font-size: 1.6rem;
+}
+
+.modal-footer .btn {
+  background-color: #516e6e;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.close {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.blur-background {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+}

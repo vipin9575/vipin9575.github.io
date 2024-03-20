@@ -1,0 +1,97 @@
+body {
+  background-image: url("../assets/bank-4859142_1280.png");
+  background-color: rgba(29, 150, 206, 0.377);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* left side  */
+#info {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  box-shadow: 10px 10px 21px 4px #000000a4;
+}
+
+#title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #4ba5b5;
+}
+
+.line {
+  display: block;
+  width: 88%;
+  margin-left: 30px;
+  height: 5px;
+  background-color: #4ba5b5;
+}
+
+#title_desc {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* right side */
+.login-card {
+  background-color: #5daeaeb4;
+  border-radius: 10px;
+  box-shadow: inset 10px 10px 21px 7px #4b8d8d;
+}
+
+input.form-control:focus {
+  border-color: #adacac;
+  box-shadow: none;
+}
+
+.login-card p {
+  font-size: 0.99rem;
+}
+
+.login-card p a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.login-card p a:hover {
+  text-decoration: underline;
+}
+
+/* invalid popup */
+.modal-content {
+  background-color: #e1e5e8;
+  height: 220px;
+}
+.modal-title {
+  margin-left: 150px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-body {
+  color: #111;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.modal-footer {
+  border-top: 1px solid #555;
+}
+
+.modal-footer .btn {
+  background-color: #e1e5e8;
+  border: none;
+  font-size: 1.6rem;
+  color: #063386;
+  font-weight: bolder;
+  margin: 0 auto 20px;
+}
